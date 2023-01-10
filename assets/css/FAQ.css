@@ -1,0 +1,114 @@
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(0,0,0,0) !important;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .25rem;
+}
+
+#accordion-q .card {
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+  overflow: visible;
+  margin-bottom: 15px;
+}
+
+#accordion-q .card-body {
+  padding: 0;
+}
+
+#accordion-q .card-header {
+  padding: 5px;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+#accordion-q .card-text {
+  font-family: 'Roboto Condensed';
+  color: white;
+  font-size: 1.8vw;
+  padding-bottom: 20px;
+  border-bottom: solid 2px rgba(255,255,255,0.3);
+}
+
+#accordion-q a {
+  color: #c05843;
+  font-size: 2.2vw;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+#accordion-q a.collapsed:hover {
+  color: #c05843;
+  transition: color .3s;
+}
+
+#accordion-q a.collapsed {
+  color: #ffffff;
+  transition: color .3s;
+}
+
+#accordion-q.accordion a.collapsed:before {
+  color: #c05843;
+  font-size: 2.5vw;
+  font-family: 'FontAwesome';
+  content: "\f055";
+  margin-left: -3.8vw;
+  background-image: url(quest-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#accordion-q.accordion a:before {
+  color: #c05843;
+  font-size: 2.5vw;
+  font-family: 'FontAwesome';
+  content: "\f056";
+  margin-left: -3.8vw;
+  background-image: url(quest-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 767px) {
+  .accordion a.collapsed:before {
+    color: #c05843;
+    font-size: 24px;
+    font-family: 'FontAwesome';
+    content: "\f055";
+    margin-left: 0;
+    background-image: url(quest-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-shadow: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .accordion a:before {
+    color: #c05843;
+    font-size: 24px;
+    font-family: 'FontAwesome';
+    content: "\f056";
+    margin-left: 0;
+    background-image: url(quest-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-shadow: none;
+  }
+}
+

@@ -1,0 +1,19 @@
+{
+    "name": "Hosting-Website-2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Prajwal",
+    "dependencies": {
+      "chalk": "^4.1.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "express-session": "^1.17.2",
+      "express-ws": "^4.0.0",
+      "nodemon": "^1.3.3"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon run dev"
+    }
+  }
+  

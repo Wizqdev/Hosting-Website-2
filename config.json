@@ -1,0 +1,22 @@
+{
+    "name": "Hosting Name", 
+    "website": {
+    "port": 8080,
+    "secret": "@",
+    "domain": ""
+    },
+    "support": "",
+    "email": "",
+    "review": "/", 
+
+    
+    "hosting": {
+        "client_domain": "",
+        "panel_domain": ""
+    },
+    
+    "status": {
+        "enabled": true,
+        "link": ""
+    }
+    }
